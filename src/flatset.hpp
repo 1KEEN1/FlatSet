@@ -7,7 +7,7 @@ public:
   Vector();                                   // Default constructor
   explicit Vector(size_t size);               // Constructor with parametrs
   Vector(Vector &&other) noexcept;            // Move constructor
-  Vector(const Vector &other);                // Copy constructor
+  Vector(const Vector &other);               
   Vector &operator=(const Vector &other);     // Copy assignment operator
   Vector &operator=(Vector &&other) noexcept; // Move assignment operator
   ~Vector();                                  // Default destructor
